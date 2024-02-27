@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire dans un tableau</title>
+    <link rel="stylesheet" href="exercice.css">
+</head>
+<body>
+
+    <h2>Nouvel exercice</h2>
+
+    <table>
+        <form>
+            <tr>
+                <td>Pseudo :</td>
+                <td><input type="text" name="nom"></td>
+            </tr>
+            <tr>
+                <td> password</td>
+                <td><input type="date" name="password"></td>
+            </tr>
+            <tr>
+                <td>Email :</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+           <tr>
+           <td>Véhicule :</td>
+           <td>
+            <select name="locomotion" id="locomotion">
+                <option value="car">voiture</option>
+                <option value="moto">moto</option>
+            </select>
+           </td>
+           </tr>
+            <tr>
+                <td>Dites nous un peu plus sur vous </td>
+                <td><textarea name="message" rows="4" cols="50"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Sexe</td>
+                <td>
+                    <label for="">homme</label>
+                    <input type="radio" id="" value="">
+                    <label for="">femme</label>
+                    <input type="radio">
+                </td>
+            </tr>
+            <tr>
+                <td>Quel sport pratiqué </td>
+                <td>
+                    <input type="checkbox" id="text" name="text" value="text">
+                    <label for="homme">karaoké</label>
+
+                    <input type="checkbox" id="text" name="genre" value="text">
+                    <label for="femme">tennis</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Telecharger votre photo</td>
+                <td>
+                    <label for="parcours"></label>
+                    <input type="file" id="parcours" name="parcours" accept=".pdf, .doc, .docx"><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <button><input type="submit" value="valider"></button>
+                    <button><input type="submit" value="effacer"></button>
+                </td>
+            </tr>
+
+        </form>
+    </table>
+
+</body>
+</html>

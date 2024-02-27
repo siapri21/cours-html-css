@@ -1,0 +1,16 @@
+section{
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    margin-left: 300px;
+    background-color: antiquewhite;
+    width: 70%;
+}
+
+section h1{
+    font-style: italic;
+    
+}
+ section input{
+    border: 50%;
+ }

@@ -1,0 +1,57 @@
+.content{
+    padding: 4px;
+}
+
+.content h1{
+    text-align: center;
+    color: rgb(31, 73, 212);
+}
+
+.container h2{
+    color: green;
+    text-align: center;
+}
+
+.container p{
+    color: orange;
+}
+
+.menu p{
+    color: blueviolet;
+}
+
+.menu h2{
+    text-align: center;
+}
+
+.olympiques h2{
+    color: grey;
+    text-align: center;
+}
+
+.olympiques p{
+    color: orange;
+    text-align: center;
+}
+
+.recent li  {
+    color: pink;
+   
+}
+
+.recent h2{
+    text-align: center;
+}
+
+.sport h2{
+    text-align: center;
+}
+
+.sport1{
+    color: blue;
+    font-style: italic;
+}
+
+.sport2{
+    color: blue;
+}
