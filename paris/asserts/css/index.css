@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+/* SECTION HERO */
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    height: 600px;
+    text-align: center;
+    color: #fff;
+
+    background-color: rgb(114, 142, 196);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.648), transparent), url(../img/eiffel-tower-1920x1280.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.hero h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.hero p {
+    font-style: italic;
+}
+
+/* SECTION EXPLORE */
+
+.explore{
+    display: flex;
+    padding: 25px;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.explore h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+
+}
+
+.explore p{
+    text-align: center;
+    margin: 50px;
+}
+
+
+/* gallery */
+
+.gallery {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.gallery img{
+    width:30%;
+    border-radius: 5%;
+    box-shadow: 10px 5px 5px rgb(164, 162, 162);
+}
+
