@@ -58,6 +58,7 @@ footer p{
     text-align: center;
     font-size: 2rem;
     font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
 }
 
 @media screen  and (max-width: 600px) {

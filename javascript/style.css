@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    color:whitesmoke;
+    background-color: blueviolet;
+    width: 50%;
+    /* margin-left: 300px; */
+}
+
+p{
+    padding: 20px;
+    margin: auto;
+    color: black;
+    text-align: center;
+
+}
+
+img{
+    align-items: center;
+    /* margin-left: 500px; */
+    padding: 15px;
+    object-fit: contain;
+}
