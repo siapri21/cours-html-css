@@ -74,17 +74,17 @@ if( number >=18){
 // }
 /* ---------------comparaison avec swich----------------*/ 
 
-switch(animals){
-    case 'chien':
-        console.log("vous etes quelqu'un de bien ");
-        break ;            //pour ne pas qu'il continue 
-    case 'chat':
-            console.log("quelle drole d'idee")
-            break;  
-    case 'poisson rouge':
-        console.log("je ne veux plus te parler ");
-        break;
-    default:
-        console.log("je n'ai pas compris")           
-}  
+// switch(animals){
+//     case 'chien':
+//         console.log("vous etes quelqu'un de bien ");
+//         break ;            //pour ne pas qu'il continue 
+//     case 'chat':
+//             console.log("quelle drole d'idee")
+//             break;  
+//     case 'poisson rouge':
+//         console.log("je ne veux plus te parler ");
+//         break;
+//     default:
+//         console.log("je n'ai pas compris")           
+// }  
 
