@@ -55,3 +55,7 @@ const car ={
 console.log(car.model);
 console.log(car.option[0]);
 console.log(car.description());
+
+for (let x in car){
+    console.log(x);
+}
