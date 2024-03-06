@@ -1,19 +1,41 @@
-//  const tableau = [];
+/* --------------------------- TABLEAUX --------------------------- */
 
- let table = ['janvier' , 'fevrier', 'mars' , 'avril' , 'mai', 'juin', 'juillet', 'aout' , 'septembre','octobre' , 'novembre' , 'decembre'];
+/*
+    Un tableau (array) est un type de donnée qui peut contenir plusieurs éléments
+    On peut créer un tableau en utlisant des crochets [] et en y insérants les éléments séparés par des virgules
+*/
 
- console.log(table);
+// Déclaration d'un tableau vide
+const tableau = [];
 
- console.log(table[0] ,table[11])
+const monthOfYear = [
+    'janvier',
+    'fevrier',
+    'mars',
+    'avril',
+    'mai',
+    'juin',
+    'juillet',
+    'aout',
+    'septembre',
+    'octobre',
+    'novembre',
+    'decembre',
+];
 
-// push la nouvelle taille du tableau 
+console.log(monthOfYear);
 
-const animals = ['chat','chien','tigre','lion','requin','panda']
-console.log(animals);
+// On peut accéder à un élément du tableau en utilisant son index numérique.
+// L'index du premier élément est toujours 0.
+console.log(monthOfYear[0]);
+console.log(monthOfYear[2]);
 
-// pop supprime  element mais aussi l'element supprime
-reponse = animals.pop()
-console.log(reponse);
+// Pour connaitre la longueur d'un element nous pouvons utiliser la propriété .length
+console.log(monthOfYear.length);
 
-
-// ajouter un ou plusieurs élément au début du tableau
+function displayMonthOfYear() {
+    for (let i = 0; i < monthOfYear.length; i++) {
+        console.log(monthOfYear[i]);
+    }
+}
+displayMonthOfYear();
