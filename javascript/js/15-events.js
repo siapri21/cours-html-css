@@ -14,7 +14,7 @@ title.addEventListener('click' , function(){
 // changer la taille de sa police sur 50px
 
 const titleText = document.querySelector('#title')
-const titleText2 = document.getElementById('title')
+// const titleText2 = document.getElementById('title')
 titleText.addEventListener('click',function(){
     titleText2.style.fontSize = '15px'
 } );
@@ -28,3 +28,10 @@ titleText.addEventListener('mouseout', function() {
 });
 
 // event quand souris survol
+const paragrapheContainer = document.querySelector('#paragraphe-container');
+paragrapheContainer.addEventListener('click' , function(e){
+    console.log(e);
+    e.target.style.color = 'purple';
+})
+
+

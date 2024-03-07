@@ -117,3 +117,11 @@ title2.textContent = "c'est pas si dur avec la pratique"
 
 const dernierParagraphe = document.querySelector('#dernier-paragraphe2')
 dernierParagraphe.setAttribute('title',' Je suis une pop-up ajouté en jaavscript')
+
+
+/*--------------------------------------------------
+                   CREER DES ELEMENTS
+-----------------------------------------------------*/ 
+
+const newParagraphe = document.createElement('p')
+newParagraphe.classList.add('new-paragraphe')
