@@ -119,9 +119,22 @@ const dernierParagraphe = document.querySelector('#dernier-paragraphe2')
 dernierParagraphe.setAttribute('title',' Je suis une pop-up ajouté en jaavscript')
 
 
-/*--------------------------------------------------
-                   CREER DES ELEMENTS
------------------------------------------------------*/ 
 
+/*
+    -------------------------------------------
+                Créer des elements
+    -------------------------------------------
+*/
+
+// Créer un element en Js
 const newParagraphe = document.createElement('p')
 newParagraphe.classList.add('new-paragraphe')
+newParagraphe.textContent = 'Je suis un nouvel element créé en Js'
+
+const paragrapheContainer = document.querySelector('#paragraphe-container')
+
+// append() ajoute un element a la fin
+// paragrapheContainer.append(newParagraphe)
+
+// prepend() ajoute un element au debut
+paragrapheContainer.prepend(newParagraphe)
