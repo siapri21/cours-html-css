@@ -30,8 +30,8 @@ for (let i = 0; i < paragraphes.length; i++) {
 
 /*
     ? La methode `getElementsByClassName()`
-    getElementsByClassName() renvoi une HTMLCollection
-    sur laquelle on pourra itérer avec la boucle for(){}
+   ! getElementsByClassName() renvoi une HTMLCollection
+    todo sur laquelle on pourra itérer avec la boucle for(){}
 */
 const title = document.getElementsByClassName('title');
 for (let i = 0; i < title.length; i++) {
@@ -52,15 +52,15 @@ cssProperties.style.fontSize = '30px';
 
 */
 const newParagraphes = document.querySelectorAll('p');
-// for( let paragraphe of newParagraphes){
-//     paragraphe.style.textDecoration = 'underline'
+//* for( let paragraphe of newParagraphes){
+//  !   paragraphe.style.textDecoration = 'underline'
 // }
 
 newParagraphes.forEach(function (paragraphe) {
     paragraphe.style.textDecoration = 'underline';
 });
 
-// selectionner tous les elements qui ont la class txt-uppercase
+// todo selectionner tous les elements qui ont la class txt-uppercase
 // tous les mettree en majuscule
 
 const txtUppercases = document.querySelectorAll('.txt-uppercase')
